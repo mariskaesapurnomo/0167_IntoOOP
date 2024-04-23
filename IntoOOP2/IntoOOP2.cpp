@@ -17,22 +17,27 @@ public:
 		cout << "Masukkan Panjangnya = ";
 		cin >> panjang;
 		cout << "Masukkan Lebarnya = ";
-		cin >> Lebar;
+		cin >> lebar;
 	}
 
 	float hitungluas() {
-		return panjang * Lebar;
+		return panjang * lebar;
 	}
 
 	void display() {
 		cout << "Panjangnya = " << panjang << endl;
-		cout << "Lebarnya = " << Lebar << endl;
-		cout << "Luasnya = " << hitungLuas() << endl;
+		cout << "Lebarnya = " << lebar << endl;
+		cout << "Luasnya = " << hitungluas() << endl;
 	}
 };
 
 int main()
 {
+	bangunDatar pp;		// deklarasi objek pp dari class bangunDatar
+	pp.input();
+	pp.display();
+
+	return 0;
   
 }
 
