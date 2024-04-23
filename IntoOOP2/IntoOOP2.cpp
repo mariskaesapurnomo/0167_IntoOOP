@@ -10,6 +10,7 @@ class bangunDatar {
 private:
 	float panjang, lebar;
 public:
+	float Luas;
 };
 
 int main()
