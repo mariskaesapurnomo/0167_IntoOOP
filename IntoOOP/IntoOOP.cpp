@@ -16,6 +16,10 @@ public:		//akses modifier
 		cout << "Jurusan" << jurusan << endl;
 	}
 };
+
+class Matakuliah {
+
+};
 int main()
 {
    
